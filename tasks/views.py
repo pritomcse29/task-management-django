@@ -16,5 +16,5 @@ def show_specific_task(request,id):
     print("id",id)
     print("id type", type(id))
     return HttpResponse("This is Specific task page")
-
-    
+def dashbord(request,id):
+    return HttpResponse("This Dashbord Page")
