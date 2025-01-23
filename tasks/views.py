@@ -12,3 +12,9 @@ def contact(request):
     return HttpResponse("<strong style='color:red;'>This is Contact Page<strong>")
 def show_task(request):
     return HttpResponse("Show Your Task")
+def show_specific_task(request,id):
+    print("id",id)
+    print("id type", type(id))
+    return HttpResponse("This is Specific task page")
+
+    
